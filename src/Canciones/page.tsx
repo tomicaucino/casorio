@@ -14,7 +14,7 @@ export const CancionesSection = () => {
         >
           
             <img 
-                    src="/icono-canciones.svg" 
+                    src="./icono-canciones.svg" 
                     width="180" 
                     className="mx-auto -mt-12"
             />
