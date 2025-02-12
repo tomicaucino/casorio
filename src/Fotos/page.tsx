@@ -3,28 +3,28 @@ import { Marquee } from "@/components/magicui/marquee"
 
 const reviews = [
     {
-      img: "/Gonza2.jpg",
+      img: "./Gonza2.jpg",
     },
     {
-      img: "/Gonza3.jpg",
+      img: "./Gonza3.jpg",
     },
     {
-      img: "/Gonza4.jpg",
+      img: "./Gonza4.jpg",
     },
     {
-      img: "/Gonza5.jpg",
+      img: "./Gonza5.jpg",
     },
     {
-      img: "/Gonza6.jpg",
+      img: "./Gonza6.jpg",
     },
     {
-      img: "/Gonza7.jpg",
+      img: "./Gonza7.jpg",
     },
     {
-      img: "/Gonza8.jpg",
+      img: "./Gonza8.jpg",
     },
     {
-      img: "/Gonza9.jpg",
+      img: "./Gonza9.jpg",
     },
   ];
   
