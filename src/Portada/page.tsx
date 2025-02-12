@@ -18,16 +18,16 @@ export const Portada = () => {
             ref={containerRef} 
             className="relative w-screen h-[280px] sm:h-[400px] overflow-hidden"
         >
-            {/* <motion.div 
+            <motion.div 
                 className="absolute inset-0 h-[600px]" // Extra height for parallax movement
                 style={{ y }}
             >
                 <img 
-                    src="/Gonza1.jpg" 
+                    src="./Gonza1.jpg" 
                     alt="Agus and Gonza"
                     className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover"
                 />
-            </motion.div> */}
+            </motion.div>
             
             <div className="absolute inset-0 bg-black/30" /> {/* Overlay for better text contrast */}
             
