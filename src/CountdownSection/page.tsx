@@ -35,13 +35,14 @@ export function CountdownSection({ onCountdownEnd }: CountdownProps) {
       const newTimeLeft = calculateTimeLeft()
       setTimeLeft(newTimeLeft)
 
+      // When countdown reaches zero, call onCountdownEnd and clear the interval
       if (Object.keys(newTimeLeft).length === 0) {
         onCountdownEnd()
         clearInterval(timer)
       }
     }, 1000)
 
-    return () => clearInterval(timer)
+    return () => clearInterval(timer) // Clear the interval on component unmount
   }, [calculateTimeLeft, onCountdownEnd])
 
   const TimeUnit = ({ value, label }: { value: number; label: string }) => (

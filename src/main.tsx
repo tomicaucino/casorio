@@ -11,6 +11,10 @@ import './index.css'
 import { Portada } from './Portada/page.tsx'
 import { Separator } from './components/ui/separator.tsx'
 
+const handleCountdownEnd = () => {
+  console.log("Countdown finished!");
+  // You can perform any additional actions needed when the countdown finishes
+}
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -18,7 +22,7 @@ createRoot(document.getElementById('root')!).render(
       <main >
         <Portada />
         <Separator className='my-4'/>
-        <CountdownSection />
+        <CountdownSection onCountdownEnd={handleCountdownEnd}/>
         <Separator className='my-4'/>
         <CeremoniayFiesta />
         <Separator className='my-4'/>
