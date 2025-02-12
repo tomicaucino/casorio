@@ -15,7 +15,7 @@ export const ConfirmacionSection = () => {
                 </div>
 
                 <div className="grid text-center pb-12 justify-items-center w-[100%]">
-                  <img src="/icono-calendario.svg"  width="180" className="mx-auto -mt-12 img-fluid"/>
+                  <img src="./icono-calendario.svg"  width="180" className="mx-auto -mt-12 img-fluid"/>
                   <p className="-mt-6">¡Agendá la fecha en tu calendario!</p>
                   <button className="bg-gray-800 rounded-[30] mt-6 text-white p-2 hover:opacity-50 text-2xl w-full">AGENDAR FECHA</button>
                 </div>

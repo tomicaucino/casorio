@@ -11,7 +11,7 @@ export const DressCodeSection = () => {
                 viewport={{ once: true }}
             >
                 <img 
-                    src="/icono-dresscode.svg" 
+                    src="./icono-dresscode.svg" 
                     alt="Dress code icon"
                     width="180"
                     height="180" // Add height for better CLS

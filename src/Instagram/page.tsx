@@ -15,7 +15,7 @@ export const InstagramSection = () => {
         >
           
             <img 
-                    src="/icono-instagram.svg" 
+                    src="./icono-instagram.svg" 
                     width="180" 
                     className="mx-auto -mt-12"
             />

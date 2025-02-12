@@ -20,7 +20,7 @@ export const RegalosSection = () => {
           viewport={{ once: true }}
           >
           
-            <img src="/icono-regalo.svg" width="180"  className="mx-auto -mt-12"/>
+            <img src="./icono-regalo.svg" width="180"  className="mx-auto -mt-12"/>
             <p>Si deseás realizarnos un regalo podés colaborar con nuestra Luna de Miel...</p>
             {/* <button onClick={openPopup} className="bg-gray-100 rounded-[30] mt-6 text-gray-700 p-2 hover:opacity-50 text-xl w-full">VER DATOS BANCARIOS</button> */}
             {/* <Popup isOpen={isPopupOpen} onClose={closePopup}>

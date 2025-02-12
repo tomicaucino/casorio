@@ -15,7 +15,7 @@ export const CeremoniayFiesta = () => {
           >
           <div className="grid text-center pb-12 mx-4 justify-items-center">
           <img 
-              src="/icono-ceremonia.svg" 
+              src="./icono-ceremonia.svg" 
               width="180" 
               className="mx-auto -mt-12"
               />
@@ -53,7 +53,7 @@ export const CeremoniayFiesta = () => {
           >
           <div className="grid text-center pb-12 mx-4 justify-items-center">
           <img 
-              src="/icono-fiesta.svg" 
+              src="./icono-fiesta.svg" 
               width="180" 
               className="mx-auto -mt-12"
               />

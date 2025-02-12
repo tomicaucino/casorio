@@ -23,7 +23,7 @@ export const Portada = () => {
                 style={{ y }}
             >
                 <img 
-                    src="/Gonza1.jpg" 
+                    src="./Gonza1.jpg" 
                     alt="Agus and Gonza"
                     className="w-full h-auto sm:h-[400px] md:h-[500px] lg:h-[600px] object-cover"
                 />
